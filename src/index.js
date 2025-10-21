@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
-const connectDB = require("./db/connect");
-const { initBot } = require("./bot/client");
+const connectDB = require("./db/connect.js");
+const { initBot } = require("./bot/client.js");
 
 const app = express();
 
